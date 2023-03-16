@@ -1,0 +1,16 @@
+# ===============================
+# = Spring configurations
+# ===============================
+spring:
+  name: local
+  # = HTTP requests configurations ##############################
+  servlet:
+    multipart:
+      location: /tmp
+  datasource:
+    url:      jdbc:postgresql://127.0.0.1:5432/test
+    username: postgres
+    password: 1234
+    driver-class-name : org.postgresql.Driver
+  liquibase:
+    change-log: classpath:db/liquibase-changelog.xml
