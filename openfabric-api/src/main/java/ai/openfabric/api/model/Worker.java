@@ -13,7 +13,7 @@ public class Worker extends Datable implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "of-uuid")
-    @GenericGenerator(name = "of-uuid", strategy = "ai.openfabric.api.model.IDGenerator")
+    // @GenericGenerator(name = "of-uuid", strategy = "ai.openfabric.api.model.IDGenerator")
     private Long id;
 
     @NotBlank
