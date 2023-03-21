@@ -16,13 +16,13 @@ spring:
   # = JPA configurations #########################################
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         default_schema: public
         current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
-    show-sql: false
+    show-sql: true
   # = SQL configurations #########################################
   sql:
     init:
