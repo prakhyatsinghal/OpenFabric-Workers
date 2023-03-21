@@ -1,41 +1,48 @@
-# Backend Junior Developer (Intern) Test
+# Welcome to OpenFabric-Workers
 
-Welcome! and thank you for applying!
+• I Created a Worker Management System app using technologies Spring Boot,Spring MVC,Hibernate, PostgreSQL and containerization using Docker.
 
-## Requirement
+• Developed RESTful APIs for CRUD Operations of Workers.
 
-Your task is to add the necessary features to the current project's API blueprint structure to enable
-it to manage **Docker** containers, also referred to as workers, as fallows:
+• Integrated Swagger UI for REST APIs documentation.
 
-🔄 Integrate the 🐳 Docker Java library (https://github.com/docker-java/docker-java/blob/main/docs/getting_started.md) to enable connect and manage 👷‍♀️ workers.
 
-➕ Add the required fields and database migration for the 👷‍♂️ Worker entity to keep **all** the information associated on available at the container level (like 🔌 ports, 👨‍💼 name, 🟢 status, etc..)
+Tech Stack Used
+is **Spring Boot**.
 
-🆕 Add required entities and tables to track the 👷‍♂️ Worker statistics.
+## Integrations for smooth running of the project locally:
 
-🆙 Update the 👷‍♂️ WorkerController to add actions for:
-* 📄 List workers (paginated)
-* ▶️ Start and ⏹️ Stop worker
-* 🔍 Get worker information
-* 📊 Get worker statistics
+1. Database : PostgreSQL
+2. Build Tool : Gradle
+3. API Documentation : Swagger 2
 
-## Constraints and restrictions
+## Software Required to install locally
 
-You are free to use any package or library you see feet as long as you follow these rules:
+1. JDK
+2. Any Java IDE (Preferred - Intellij Idea)
+3. PostgreSQL
+4. Git
 
-* 👎 You can't copy and paste from other peoples work
+## How to run this project locally:
 
-## Run
+In order to execute the current project, you have to follow the mentioned steps -
 
-Once you have established a connection to the database, you can test the application by using Swagger.
+1. > git clone https://github.com/prakhyatsinghal/OpenFabric-Workers.git
 
-You can access Swagger by navigating to the following link: http://localhost:8080/swagger-ui/#/.
+Then you are good to go!
 
-## Submission
+## How to start this project:
 
-Your solution must be uploaded on GitHub, and submit us the link in **max 1 week** after receiving the task.
+1. Clone this Repository
+2. Import project into your IDE.
+3. Create your own branch like feature_{your implemented feature}. e.g. feature_api_to_register_user
+4. Commit your changes on your branch mentioning properly what change you have done. e.g. bug_fixing_crash_in_user_api
+5. After completing the task, create a PR against the master branch.
 
-## Note
+After reviewing your PR, it will be merged.
 
-Keep in mind that this is the project that will be used to evaluate your skills.
-So we do expect you to make sure that the app is fully functional and doesn't have any obvious missing pieces.
+
+## Access Swagger Documentation
+
+Swagger UI
+> http://localhost:8080/swagger-ui/#/
